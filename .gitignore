@@ -4,6 +4,8 @@
 /reactapp/node_modules
 /testcase/openai-env
 /testcase/testcase/.env
+/testcase/testcase/__pycache__
+/testcase/testcaseapp/__pycache__
 /.pnp
 .pnp.js
 
