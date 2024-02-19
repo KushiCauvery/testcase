@@ -1,0 +1,81 @@
+/* App.css */
+
+body {
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color for better contrast */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a modern font for better readability */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Add a subtle shadow for depth */
+    background-color: #111; /* Dark gray background for the container */
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin for a larger header */
+    font-size: 30px; /* Larger font size for the header */
+    color: #fff; /* Blue color for the header */
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px; /* Larger font size for labels */
+}
+
+textarea {
+    width: 100%;
+    height: 150px; /* Increased height for the textarea */
+    padding: 15px; /* Increased padding for the textarea */
+    margin-bottom: 20px; /* Increased margin bottom for better spacing */
+    border: 2px solid #007bff; /* Border color matching the header */
+    border-radius: 8px; /* Rounded corners for the textarea */
+    font-size: 16px; /* Larger font size for the textarea */
+    outline: none; /* Remove default focus outline */
+    background-color: #222; /* Dark gray background for the textarea */
+    color: #fff; /* White text color for better visibility */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px; /* Increased padding for the button */
+    border: none;
+    border-radius: 8px; /* Rounded corners for the button */
+    cursor: pointer;
+    font-size: 16px; /* Larger font size for the button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+pre {
+    background-color: #333; /* Dark gray background for code snippet */
+    padding: 20px; /* Increased padding for better readability */
+    border-radius: 8px;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Add a subtle shadow for depth */
+}
+
+.loading {
+    font-style: italic;
+    color: #888; /* Light gray color for loading text */
+}
