@@ -15,7 +15,7 @@ def generate_test_cases(request):
         print(codeSnippet)
         
         sys_prompt = "You are a test case generation assistant."
-        user_prompt = f"Generate test cases for the following code:\n\n{codeSnippet}"
+        user_prompt = f"Generate code and unit test cases for the following code:\n\n{codeSnippet}"
 
         completion = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
